@@ -1,0 +1,13 @@
+source "https://rubygems.org"
+
+gem "sinatra", "~> 2.2"
+gem "sinatra-activerecord"
+gem "activerecord", "~> 7.1"
+gem "sqlite3", "~> 1.4"
+gem "httparty"
+gem "dotenv"
+gem "rake"
+gem "puma"
+gem "geocoder"
+
+gem "rack", "~> 2.2"

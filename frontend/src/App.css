@@ -1,0 +1,49 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #fffef2, #eaeff7);
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: rgba(215, 38, 61, 0.8);
+  margin-bottom: 0.5rem;
+}
+
+p {
+  text-align: center;
+  color: #666;
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+.chart-container {
+  width: 100%;
+  padding: 1rem;
+}
+
+.table-container {
+  width: 100%;
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  .chart-container, .table-container {
+    flex: 1 1 48%;
+  }
+}
+
+.format-select {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+select {
+  padding: 0.4rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
